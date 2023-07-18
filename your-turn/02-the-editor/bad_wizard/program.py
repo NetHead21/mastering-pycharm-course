@@ -1,9 +1,9 @@
-import time
-import os
-import datetime
 import random
+import time
 
 from actors import Wizard, Creature, SmallAnimal, Dragon
+
+
 def main():
     print_header()
     game_loop()
@@ -40,7 +40,7 @@ def game_loop():
     ]
 
     hero = Wizard('Gandolf', 75)
-
+    hero.wake_up()
 
     while True:
 
